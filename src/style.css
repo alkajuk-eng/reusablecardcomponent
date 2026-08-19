@@ -1,0 +1,57 @@
+/* Main application container */
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Page title */
+.app > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Profile card */
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+/* Profile image */
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Employee name */
+.profile-card h1 {
+  margin: 10px 0 5px;
+}
+
+/* Job title */
+.profile-card h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Biography */
+.profile-card p {
+  line-height: 1.5;
+}
+
+/* Skills */
+.profile-card h3 {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #eee;
+  font-size: 14px;
+}
